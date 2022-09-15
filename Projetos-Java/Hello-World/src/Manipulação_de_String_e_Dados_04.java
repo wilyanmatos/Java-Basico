@@ -35,6 +35,6 @@ public class Manipulação_de_String_e_Dados_04 {
         System.out.println("Olá " + nome + ". Hoje é " + DiaDaSeman + ". " + Saudacao );
         System.out.println("Agora são " + HoraAtual + ":" + agora.getMinute() + " Horas");
         System.out.printf("Olá, %s. Hoje é %s, %s.%n", nome, DiaDaSeman, Saudacao);
-        System.out.println("Opa");
+
     }
 }
