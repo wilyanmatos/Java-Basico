@@ -3,7 +3,7 @@ import java.time.format.TextStyle;
 import java.util.Locale;
 import java.time.LocalDateTime;
 
-public class Manipulação_de_String_e_Dados_04 {
+public class Manipulação_de_String_e_Dados_05 {
     public static void main (String[] args){
         /*String nome = "Wilson da Motoca";
         String outroNome = "Wilson da motoca";

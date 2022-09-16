@@ -1,4 +1,4 @@
-public class Laços_de_Repetição {
+public class Laços_de_Repetição_04 {
     public static void main(String[] args){
         // Variavel i receber 1, precisando ser menor ou igual a 10, caso não for adicione mais 1
 
