@@ -1,5 +1,5 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
-time: 12:03
 public class Vetores_06 {
     public static void main (String[] args){
         // Arrays com Strings
@@ -22,19 +22,23 @@ public class Vetores_06 {
         }
 
         // Arrays com Numeros
-        int[] numeros = {1, 2, 3, 4, 5, 6};
-        int maior = 0;
-        int menor = 0;
-        int valor = 0;
-        for(int i = 0; i < numeros.length; i++){
-            valor = numeros[i];
-            if (valor > maior) {
-                maior = valor;
-            }if (menor < maior) {
-                menor = maior;
+        int[] numeros = {10, 5, -1, 42, 19, 1};
+        int maior = numeros[0];
+        int menor = numeros[0];
+        int media = 0;
+        for(int i = 0; i < numeros.length; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];
+            } else {
+                menor = numeros[i];
             }
-            System.out.printf("O maior número é %s e o menor é %s.%n", maior, menor);
-
+            media += numeros[i];
         }
+        int totalMedia = (media / numeros.length) ;
+        System.out.printf("maior: %s%n" , maior);
+        System.out.printf("menor: %s%n", menor);
+        System.out.printf("A média desses valores são %s.%n ", totalMedia);
+
+
     }
 }
